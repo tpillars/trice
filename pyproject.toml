@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"] #list of packages needed to build package
+build-backend = "hatchling.build" #name of Python object frontends will use to perform build
+
+[project]
+name = "trice"
+version = "0.0.0"
+authors = [
+  { name="Teresa Rice", email="teresapillars@gmail.com" },
+]
+description = "A catchall personal package"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/tpillars/trice"
+"Bug Tracker" = "https://github.com/tpillars/trice/issues"
